@@ -17,6 +17,7 @@ form.addEventListener('submit', (e) => {
       btnKirim.classList.toggle('d-none');
       //tampilkan alert
       myAlert.classList.toggle('d-none');
+form.classList.toggle('d-none');
       //reset form
       form.reset();
       console.log('Success!', response);
